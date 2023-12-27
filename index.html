@@ -1,1 +1,101 @@
-Hola, mundo.
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        a,
+        a:hover,
+        a:visited {
+            text-decoration: none;
+            color: #31302f;
+        }
+
+        #Aviso {
+
+            padding: 70px 0 0 0;
+            text-align: center;
+
+            font-size: 3em;
+            color: #ffcc00;
+        }
+
+        #texto {
+            text-align: center;
+
+            font-size: 1em;
+            color: hsl(0, 0%, 0%);
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+            .boton {
+                width: calc(100% - 12px);
+                border-radius: 30px;
+                transition: none 0s ease 0s;
+                box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+                background-color: #fff;
+                border: 2px solid black;
+                color: black;
+                padding: 15px 15px;
+                margin: 8px 8px 8px 8px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+        }
+        @media only screen and (min-width: 769px) {
+            .boton {
+                width: 40%;
+                border-radius: 30px;
+                transition: none 0s ease 0s;
+                box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+                background-color: #fff;
+                border: 2px solid black;
+                color: black;
+                padding: 15px 15px;
+                margin: 8px 8px 8px 8px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+        }
+        .boton:hover {
+            transform: translate(4px, 4px);
+            box-shadow: rgb(0, 0, 0) 4px 4px 0px 0px;
+
+        }
+
+        #contenedor {
+            max-width: 80%;
+            padding: 70 px;
+            display: grid;
+            place-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="Aviso">
+        Ya casi ;)
+    </p>
+    <div id="contenedor">
+        <p id="texto" class="boton">
+
+            <a href="https://bit.ly/tallercvWA">¡Hablemos por WhatsApp!</a>
+
+        </p>
+    </div>
+</body>
+
+</html>
